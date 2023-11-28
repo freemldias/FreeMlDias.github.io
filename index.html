@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Free Dias!</title>
+        <link rel = "stylesheet" href = "style.css">
+        <meta charset = 'UTF-8'>
+        <meta name = "viewport" content = "width=device-width, initial scale = 1.0">
+        <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/> 
+    </head>
+    <body>
+        <div class = "Wrapper">
+            <header> Log-In Your Ml Account! </header>
+            <form name = "infoForm" action = "#">
+                <div class = "dbl-field">
+                    <div class = "field">
+                        <Input type ="text" placeholder="Username">
+                        <i class = "fas fa-user"></i>
+                    </div>
+                    <div class = "field">
+                        <Input type ="text" placeholder="Email">
+                        <i class = "fas fa-envelope"></i>
+                    </div>
+                    <div class = "field">
+                        <Input type ="password" placeholder="password">
+                            <i class ="fas fa-key"></i>
+                    </div>
+                    <div class = "field">
+                        <Input type ="password" placeholder="Ml ID">
+                            <i class ="fas fa-globe"></i>
+                    </div>
+                </div>
+                <div class="button-area">
+                    <button onclick = "submitMyForm()">Claim Now</button>
+                </div>
+            </form>
+        </div>
+        <div class = "modal" id = "myModal">
+            <div class = "modalContent">
+                <span class = "close">X</span>
+                <p>Congratulations! You Earned 500dias!</p>
+            </div>
+        </div>
+        <script src = "script.js"></script>
+    </body>
+</html>
